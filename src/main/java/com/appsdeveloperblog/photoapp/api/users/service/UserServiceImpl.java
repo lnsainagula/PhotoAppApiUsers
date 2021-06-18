@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService{
 		// TODO Auto-generated method stub
 		
 		userDetails.setUserId(UUID.randomUUID().toString());
-		
+		userDetails.setEmail("test");
 		return null;
 	}
 
